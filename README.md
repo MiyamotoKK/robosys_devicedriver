@@ -8,7 +8,7 @@
 ・ジャンパー線 
 
 
-##   
+## Usage
 echo 0 > /dev/myled0  (両方のLEDが消灯)  
 echo 1 > /dev/myled0  (緑のLEDのみが点灯)   
 echo 2 > /dev/myled0  (青のLEDのみが消灯)   
