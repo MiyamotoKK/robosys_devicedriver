@@ -23,3 +23,4 @@ dmesg で確認できる。
 と＿)＿) 
 
 ## 動作の様子
+https://www.youtube.com/watch?v=an93UusaRtA
