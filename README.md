@@ -7,7 +7,18 @@
 ・LED（緑、青）   
 ・ジャンパー線 
 
+## 回路図
+![Ras_回路図](https://user-images.githubusercontent.com/92069729/146303528-2a21658b-0b55-47b8-bfe1-9d1e155a2af1.png)
+
 ## Usage
+
+### <インストール>
+このリポジトリをクローン,myledに移動したうえで以下を実行。
+
+make  
+sudo insmod myled.ko  
+sudo chmod 666 /dev/myled0  
+
 echo 0 > /dev/myled0  (両方のLEDが消灯)  
 echo 1 > /dev/myled0  (緑のLEDのみが点灯)   
 echo 2 > /dev/myled0  (青のLEDのみが消灯)   
@@ -21,21 +32,8 @@ dmesg で確認できる。
 ( つ旦O   
 と＿)＿) 
 
-## 使用方法
-
-### <インストール>
-このリポジトリをクローン,myledに移動したうえで以下を実行。
-
-make
-sudo insmod myled.ko
-sudo chmod 666 /dev/myled0
-
 ### <アンインストール>
 sudo rmmod myled
-
-## 回路図
-![Ras_回路図](https://user-images.githubusercontent.com/92069729/146303528-2a21658b-0b55-47b8-bfe1-9d1e155a2af1.png)
-
 
 ## 動作の様子
 https://www.youtube.com/watch?v=an93UusaRtA
