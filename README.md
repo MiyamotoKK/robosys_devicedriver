@@ -22,5 +22,9 @@ dmesg で確認できる。
 ( つ旦O   
 と＿)＿) 
 
+## 回路図
+![Ras_回路図](https://user-images.githubusercontent.com/92069729/146303528-2a21658b-0b55-47b8-bfe1-9d1e155a2af1.png)
+
+
 ## 動作の様子
 https://www.youtube.com/watch?v=an93UusaRtA
