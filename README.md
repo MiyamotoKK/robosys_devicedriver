@@ -13,8 +13,7 @@
 ## Usage
 
 ### <インストール>
-このリポジトリをクローン,myledに移動したうえで以下を実行。
-
+このリポジトリをクローン,myledに移動したうえで以下を実行。  
 make  
 sudo insmod myled.ko  
 sudo chmod 666 /dev/myled0  
